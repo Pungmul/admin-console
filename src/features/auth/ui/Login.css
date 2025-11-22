@@ -1,0 +1,14 @@
+/* 로그인 페이지 입력 필드 스타일 */
+.ant-input,
+.ant-input-password {
+  border-color: #9ca3af !important;
+}
+
+.ant-input:focus,
+.ant-input-focused,
+.ant-input-password:focus,
+.ant-input-password-focused {
+  border-color: #6b7280 !important;
+  box-shadow: 0 0 0 2px rgba(107, 114, 128, 0.1) !important;
+}
+

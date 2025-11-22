@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* 1. variable font 정확히 선언 */
+@font-face {
+  font-family: "Pretendard";
+  src: url("/fonts/PretendardVariable.woff2") format("woff2-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. AntD 전체에 적용 */
+:where(.ant-*) {
+  font-family: "Pretendard", sans-serif !important;
+}
+
+/* 3. 전역 설정 - font-weight 제거 */
+:root {
+  --background: #F7F7F8;
+  --foreground: #232424;
+
+  font-family: "Pretendard", sans-serif !important;
+  line-height: 1.5;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #232424;
+    --foreground: #F7F7F8;
+  }
+}
+
+body {
+  font-family: "Pretendard", sans-serif;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
