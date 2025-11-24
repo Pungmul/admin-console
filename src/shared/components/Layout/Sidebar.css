@@ -1,0 +1,54 @@
+/* Ant Design Menu 스타일 조정 - gray-50 배경에 맞게
+.ant-menu {
+  background-color: transparent !important;
+}
+
+.ant-menu-title-content {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+}
+
+.ant-menu-item {
+  color: rgb(17 24 39) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  padding-left: 16px !important;
+}
+
+.ant-menu-item:hover {
+  background-color: rgb(243 244 246) !important;
+  color: rgb(17 24 39) !important;
+}
+
+.ant-menu-item-selected {
+  background-color: rgb(229 231 235) !important;
+  color: rgb(17 24 39) !important;
+}
+
+.ant-menu-submenu-title {
+  color: rgb(17 24 39) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  padding-left: 16px !important;
+}
+
+.ant-menu-submenu-title:hover {
+  background-color: rgb(243 244 246) !important;
+  color: rgb(17 24 39) !important;
+}
+
+.ant-menu-submenu-open > .ant-menu-submenu-title {
+  background-color: rgb(243 244 246) !important;
+}
+
+.ant-menu-sub {
+  background-color: var(--background) !important;
+}
+
+.ant-menu-sub .ant-menu-item {
+  padding-left: 32px !important;
+}
+ */
