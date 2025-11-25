@@ -1,0 +1,38 @@
+/* 이미지 미리보기 애니메이션 제거 */
+.ant-image-preview-wrap,
+.ant-image-preview-mask {
+  transition: none !important;
+  animation: none !important;
+}
+
+.ant-image-preview-img {
+  transition: none !important;
+  animation: none !important;
+}
+
+.ant-image-preview-operations {
+  transition: none !important;
+  animation: none !important;
+}
+
+.ant-image-preview-switch-left,
+.ant-image-preview-switch-right {
+  transition: none !important;
+  animation: none !important;
+}
+
+/* 이미지 확대/축소 애니메이션 제거 */
+.ant-image-preview-img-wrapper {
+  transition: none !important;
+}
+
+/* 회전 애니메이션 제거 */
+.ant-image-preview-img {
+  transition: none !important;  
+  animation: none !important;
+}
+
+.ant-image-preview-body{
+    transition: none !important;
+    animation: none !important;
+}
